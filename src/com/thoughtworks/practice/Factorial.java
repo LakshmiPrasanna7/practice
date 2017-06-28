@@ -12,7 +12,7 @@ public class Factorial {
         {
             answer*=i;
         }
-        System.out.println("Factorial is ");
+        System.out.println("Factorial is "+answer);
         return answer;
     }
 }
