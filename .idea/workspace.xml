@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5474c88f-6c12-49e0-a33e-ff9a346f4457" name="Default" comment="" />
+    <list default="true" id="5474c88f-6c12-49e0-a33e-ff9a346f4457" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/thoughtworks/practice/Hamming.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/com/thoughtworks/practice/HammingTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/thoughtworks/practice/Factorial.class" afterPath="$PROJECT_DIR$/out/production/practice/com/thoughtworks/practice/Factorial.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,14 +28,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FactorialTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FactorialTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/com/thoughtworks/practice/FactorialTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+            <state relative-caret-position="252">
+              <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hamming.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/practice/Hamming.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HammingTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/com/thoughtworks/practice/HammingTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -40,8 +65,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Arquillian JUnit Test Class" />
+        <option value="Class" />
         <option value="JUnit4 Test Class" />
       </list>
     </option>
@@ -79,6 +104,8 @@
         <option value="$PROJECT_DIR$/src/com/thoughtworks/practice/Factorial.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.kts" />
         <option value="$PROJECT_DIR$/tests/com/thoughtworks/practice/FactorialTest.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/practice/Hamming.java" />
+        <option value="$PROJECT_DIR$/tests/com/thoughtworks/practice/HammingTest.java" />
       </list>
     </option>
   </component>
@@ -177,7 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FactorialTest">
+  <component name="RunManager" selected="JUnit.HammingTest">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.thoughtworks.practice.Main" />
@@ -231,6 +258,58 @@
       <option name="workingDirectory" value="$APPLICATION_CONFIG_DIR$/consoles/ide" />
       <option name="isAlternativeJrePathEnabled" value="false" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="HammingTest.checkForLengthZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.thoughtworks.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="practice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.thoughtworks.practice" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.practice.HammingTest" />
+      <option name="METHOD_NAME" value="checkForLengthZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="HammingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.thoughtworks.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="practice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.thoughtworks.practice" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.practice.HammingTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
@@ -597,16 +676,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.FactorialTest" />
       <item index="2" class="java.lang.String" itemvalue="Kotlin script.ide-scripting.kts" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.HammingTest.checkForLengthZero" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.HammingTest" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FactorialTest" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin script.ide-scripting.kts" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.HammingTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.HammingTest.checkForLengthZero" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FactorialTest" />
+        <item index="3" class="java.lang.String" itemvalue="Kotlin script.ide-scripting.kts" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -625,7 +708,7 @@
       <updated>1498620395746</updated>
       <workItem from="1498620398896" duration="2144000" />
       <workItem from="1498623181282" duration="1666000" />
-      <workItem from="1498624878564" duration="526000" />
+      <workItem from="1498624878564" duration="3341000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1498623630561</created>
@@ -645,39 +728,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FactorialTest - 2017.06.28 at 09h 26m 55s.xml">
+    <history-entry file="FactorialTest - 2017.06.28 at 10h 21m 20s.xml">
       <configuration name="FactorialTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FactorialTest - 2017.06.28 at 09h 27m 49s.xml">
-      <configuration name="FactorialTest" configurationId="JUnit" />
+    <history-entry file="HammingTest - 2017.06.28 at 11h 29m 03s.xml">
+      <configuration name="HammingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FactorialTest - 2017.06.28 at 09h 43m 14s.xml">
-      <configuration name="FactorialTest" configurationId="JUnit" />
+    <history-entry file="HammingTest - 2017.06.28 at 11h 35m 32s.xml">
+      <configuration name="HammingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FactorialTest - 2017.06.28 at 09h 47m 24s.xml">
-      <configuration name="FactorialTest" configurationId="JUnit" />
+    <history-entry file="HammingTest - 2017.06.28 at 11h 37m 05s.xml">
+      <configuration name="HammingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FactorialTest - 2017.06.28 at 09h 58m 09s.xml">
-      <configuration name="FactorialTest" configurationId="JUnit" />
+    <history-entry file="HammingTest - 2017.06.28 at 11h 44m 33s.xml">
+      <configuration name="HammingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FactorialTest - 2017.06.28 at 09h 58m 11s.xml">
-      <configuration name="FactorialTest" configurationId="JUnit" />
+    <history-entry file="HammingTest - 2017.06.28 at 11h 45m 19s.xml">
+      <configuration name="HammingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FactorialTest - 2017.06.28 at 10h 01m 18s.xml">
-      <configuration name="FactorialTest" configurationId="JUnit" />
+    <history-entry file="HammingTest - 2017.06.28 at 11h 45m 21s.xml">
+      <configuration name="HammingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FactorialTest - 2017.06.28 at 10h 19m 00s.xml">
-      <configuration name="FactorialTest" configurationId="JUnit" />
+    <history-entry file="HammingTest_checkForLengthZero - 2017.06.28 at 11h 24m 31s.xml">
+      <configuration name="HammingTest.checkForLengthZero" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FactorialTest - 2017.06.28 at 10h 19m 14s.xml">
-      <configuration name="FactorialTest" configurationId="JUnit" />
+    <history-entry file="HammingTest_checkForLengthZero - 2017.06.28 at 11h 26m 44s.xml">
+      <configuration name="HammingTest.checkForLengthZero" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FactorialTest - 2017.06.28 at 10h 19m 28s.xml">
-      <configuration name="FactorialTest" configurationId="JUnit" />
+    <history-entry file="HammingTest_checkForLengthZero - 2017.06.28 at 11h 28m 34s.xml">
+      <configuration name="HammingTest.checkForLengthZero" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4336000" />
+    <option name="totallyTimeSpent" value="7151000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -690,20 +773,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32817337" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32817337" sideWeight="0.5091633" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32817337" sideWeight="0.49083665" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32817337" sideWeight="0.49083665" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972136" sideWeight="0.49721116" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.49721116" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25896415" sideWeight="0.49078342" order="0" side_tool="false" content_ui="combo" />
@@ -804,11 +888,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/com/thoughtworks/practice/FactorialTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        <state relative-caret-position="252">
+          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/practice/Hamming.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/com/thoughtworks/practice/HammingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
